@@ -2,6 +2,10 @@ En este repositorio se encuentra una Sistema para mostrar tráilers de película
 -
 ## ***Sistema Cartelera/Trailers en Spring Boot***
 
+<div>
+	<img src="https://raw.githubusercontent.com/ADLG/Sistema-de-trailers-de-peliculas-Spring-Boot/main/Pagina%20de%20Trailers%208080.png">
+</div>
+
 ### Especificaciones:
 
 Project - Maven
