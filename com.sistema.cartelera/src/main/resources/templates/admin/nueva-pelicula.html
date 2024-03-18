@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+			xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+			layout:decorate="~{master.html}">
+<head>
+<meta charset="UTF-8">
+<title>Registro de peliculas</title>
+
+</head>
+<body>
+
+<!-- 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">CinemaTrailer</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/peliculas">Peliculas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/admin">Administración</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
+
+	<div layout:fragment="content">
+		<h2>Registro de pelicula</h2>
+		<br>
+		<div th:insert="admin/form :: form">
+			
+		</div>
+	</div>
+
+</body>
+</html>
